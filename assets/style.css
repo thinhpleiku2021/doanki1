@@ -1,15 +1,16 @@
 header{
     height: 125px;
-    background-color: ;
+    
 }
 header img {
     float: left;
+    margin-left: 130px;
 }
 .header-right{
     height: 125px;
     float: right;
     
-    margin-right: 100px;
+    margin-right: 30px;
     width: 750px;
 }
 .search{
@@ -26,7 +27,13 @@ header img {
     margin-left: 300px;
     font-size: 25px;
 }
-.   a{
-    text-decoration: none;
+.a{ text-decoration: none;
+    color: red;
+}
+.navbar{
+    border: solid 1px black;
+    width: 450px;
+    border-radius: 20px;
+    margin:50px 0 0 400px;
 }
 
