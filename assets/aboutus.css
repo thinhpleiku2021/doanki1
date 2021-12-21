@@ -41,6 +41,27 @@ header img {
     margin-right: 300px;
     float: right;
 }
+h1{
+    text-align: center;
+}
+.col-left{
+    height: 250px;
+    
+}
+.help{
+    height: 260px;
+   
+    width: 80%;
+    float: left;
+    margin-top: 130px;   
+}
+.icon{
+    height: 310px;
+    
+    width: 20%;
+    float: left;
+    margin-top: 80px;
+}
 footer {
         background: rgb(148, 240, 243);
         text-align: center;
@@ -82,6 +103,7 @@ footer {
     margin-right: 150px;
     height: 180px;
     margin-bottom: 20px;
+    
 }
 .copy{
     margin-top: 110px;
@@ -90,20 +112,20 @@ footer {
 h4{
     margin:0 60px 0 60px;
 }
-h5{
-    margin:0 60px 0 60px;
-}
 .p{
    margin: 0 60px 0 60px;
 }
 .comment{
     text-align: center;
 }
-
+h5{
+    margin: 0 60px 0 60px;
+}
 .avatar{
     margin-left: 30px;
 }
-.zoom:hover {
-    transform: scale(1.2);
+
+  /*Hiệu ứng zoom*/
+  .zoom:hover { 
+      transform: scale(1.2);
   }
-  

@@ -82,6 +82,7 @@ footer {
     margin-right: 150px;
     height: 180px;
     margin-bottom: 20px;
+    
 }
 .copy{
     margin-top: 110px;
@@ -102,5 +103,12 @@ h5{
 .avatar{
     margin-left: 30px;
 }
+
+  /*Hiệu ứng zoom*/
+  .zoom:hover { 
+      transform: scale(1.2);
+  }
+ 
+  
 
     
