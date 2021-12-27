@@ -3,7 +3,6 @@
     margin-right: 30px;
 }
 
-
 .search {
     float: right;
     margin-right: 50px;
@@ -59,103 +58,123 @@
     margin-left: 6%;
 }
 
-.navbar-branch {
-    margin-left: 6%;
-}
-section{
-    width: 70%;
-    
-    float: left;
-}
-aside{
-    width: 30%;
-    height: 1000px;
-    float: left;
-}
-.nav-item2{
-    height: 90px;
-    width: 95%;
-    border: solid black 1px;
-}
-.thumb-nail{
-    width: 45px;
-    height: 100%;
-    float: left;
+.section {
+    width: 100%;
+    height: 650px;
 }
 
-.justify-content-around{
-    float: right;
-    color: black; 
+.carousel-item {
+    height: 600px;
+    width: 100%;
 }
 
-h1{
-    text-align: center;
+.div1 {
+    height: 500px;
+    width: 35%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 15%;
+}
+
+.div2 {
+    height: 600px;
+    width: 38%;
+    float: left;
+    margin-left: 9%;
 }
 
 footer {
     background: linear-gradient(65deg, rgb(192, 190, 190) 15%, rgb(228, 228, 231));
     text-align: center;
     color: black;
-    padding-top: 1rem;
+    padding: 1rem;
+    flex-shrink: 0;
     height: 400px;
     margin-top: 50px;
-    clear: both;
 }
-.category{ 
+
+.category {
     height: 200px;
     float: left;
-    width: 250px; 
-    margin-left:60px;
+    width: 250px;
+    margin-left: 60px;
     margin-top: 30px;
-    }
-.logo-footer{
-    float: left;
-    margin-left: 80px;
-    margin-top: 30px;
-} 
-.hr{
-    margin: 10px 90px 0 90px;
-    border: 1px solid black;
-}   
-.about-us{
-    float: left;
-    margin: 60px 0 0 50px;
 }
-.a2{
+
+.logo-footer {
+    float: left;
+    margin-left: 0px;
+    margin-top: 30px;
+}
+
+.hr {
+    margin: 1px 90px 0 90px;
+    border: 1px solid black;
+}
+
+.about-us {
+    float: left;
+    margin: 60px 0 0 90px;
+}
+
+.a2 {
     text-decoration: none;
     float: left;
     color: black;
     text-align: left;
 }
-.contact-us{
+
+.contact-us {
     float: right;
-    margin-right: 150px;
-    height: 180px;
+    margin-right: 175px;
+    
+    height: 100px;
     margin-bottom: 20px;
 }
-.copy{
-    margin-top: 110px;
-    padding-right: 1080px;
-}
-h4{
-    margin:0 60px 0 60px;
-}
-.p{
-   margin: 0 60px 0 60px;
-}
-.comment{
-    text-align: center;
-    width: 80%;
-    margin-left: 10%;
-}
-h5{
-    margin: 0 60px 0 60px;
-}
-.avatar{
-    margin-left: 30px;
+
+.icon {
+    float: right;
+    margin-right: 150px;
+    height: 100px;
 }
 
-  /*Hiệu ứng zoom*/
-  .zoom:hover { 
-      transform: scale(1.2);
-  } 
+.copy {
+    margin-top: 120px;
+    padding-right: 1080px;
+}
+
+h4 {
+    margin: 0 60px 0 60px;
+}
+
+.p {
+    margin: 0 60px 0 60px;
+}
+
+.remember {
+    height: 15px;
+    width: 15px;
+    content: "✓";
+}
+
+#remember {
+    display: inline-block;
+    content: "✓";
+}
+
+#resetPass {
+    margin-top: 80px;
+}
+
+.modal-header {
+    background: linear-gradient(45deg, rgb(77, 132, 158) 15%, rgb(68, 181, 145));
+}
+
+.modal-body {
+    background: linear-gradient(45deg, rgb(77, 132, 158) 15%, rgb(68, 181, 145));
+}
+
+.close {
+    border: none;
+    background: linear-gradient(45deg, rgb(77, 132, 158) 15%, rgb(48, 145, 114));
+}
